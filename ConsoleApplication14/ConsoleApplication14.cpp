@@ -18,7 +18,7 @@ int main()
 	{
 		if (arr[i] == 11 || arr[i] == 12 || arr[i] == 13 || arr[i] == 14)
 		{
-			mylistik.push_back(arr[i]);
+			mylistik.push_back(i);
 		}
 	}
 	for (auto L_Iter = mylistik.begin(); L_Iter != mylistik.end(); L_Iter++)

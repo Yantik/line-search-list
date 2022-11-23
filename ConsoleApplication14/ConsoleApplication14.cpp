@@ -7,7 +7,6 @@ using namespace std;
 int main()
 {
 	list <int> mylistik;
-	int need = 15;
 	srand(time(0));
 	const int size = 100;
 	int arr[100]{};
